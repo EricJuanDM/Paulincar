@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Conserto de Carro</title>
+    <link rel="shortcut icon" href="favicon_io (1)/favicon-16x16.png">  
+    <link rel="stylesheet" href="concerto.css">
+</head>
+<body>
+    <header>
+        <div class="Banner">
+            <h1><img src="59db69be3752880e93e16efa.png" ></h1>
+             <nav>
+               <u>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="Sobre.html">Sobre</a></li>
+                  <li><a href="modelos.html">Modelos</a></li>
+                  <li><a href="contatos.html">Contatos</a></li>
+                  <li><a href="fale.html">Fale conosco</a></li>
+                  <li><a href="concerto.html">concerto</a></li>
+               </u>
+             </nav>
+        </div>
+     </header>
+
+    <h1>Calculadora de Conserto de Carro</h1>
+
+    <form id="repairForm">
+        <label for="carType">Escolha o tipo de carro:</label>
+        <select id="carType" name="carType">
+            <option value="Fusca Azul">Fusca Azul</option>
+            <option value="Hot Wheels">Hot Wheels</option>
+            <option value="McQueen">McQueen</option>
+        </select>
+
+        <label for="issueType">Escolha o tipo de problema:</label>
+        <select id="issueType" name="issueType">
+            <option value="oleo">Troca de Óleo</option>
+            <option value="freios">Troca de Freios</option>
+            <option value="motor">Problema no Motor</option>
+        </select>
+
+        <button type="button" onclick="calculateCost()">Calcular Custo</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="concerto.js"></script>
+    <footer> 
+        <div class="pe">
+            <h1 class="foot"><img src="59db69be3752880e93e16efa.png" alt=""></h1>
+            <h3 class= "Roda-pe"> Copyright Paulincar - 2023</h3>
+
+        </div class="pe">
+    </footer>
+</body>
+</html>
